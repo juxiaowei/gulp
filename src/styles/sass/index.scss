@@ -1,0 +1,9 @@
+@import "compass/reset";
+.demo{
+  font-size: 20px;
+}.demo2{
+  @extend .demo;
+}
+.demo4{
+  font-size: 16px;
+}

@@ -1,0 +1,14 @@
+{
+  "project" : "yz",
+  "localserver" : {
+    "host" : "localhost",
+    "port" : "8001"
+  },
+  "sftp" : {
+    "host" : "120.24.59.13",
+    "user" : "root",
+    "port" : "22",
+    "pass" : "800taobaoTAOBAO",
+    "remotePath" :"/alidata/www/default/test/"
+  }
+}

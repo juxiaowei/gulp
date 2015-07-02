@@ -103,10 +103,11 @@ gulp.task('watch', function() {
 });
 
 // build task
-gulp.task('build', function(){
+gulp.task('build',['clean'] ,function(){
     gulp.run('images');
     gulp.run('sass');
     gulp.run('minify');
+    gulp.run('scripts');
 });
 
 // default task
